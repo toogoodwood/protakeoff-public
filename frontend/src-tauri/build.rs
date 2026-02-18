@@ -31,8 +31,7 @@ fn main() {
 
         // Additional libs
         println!("cargo:rustc-link-lib=static=libharfbuzz");
-        println!("cargo:rustc-link-lib=static=libzxing");
-        println!("cargo:rustc-link-lib=static=libtesseract");
+            println!("cargo:rustc-link-lib=static=libtesseract");
         println!("cargo:rustc-link-lib=static=libleptonica");
 
         // System dependencies for MuPDF on Windows
